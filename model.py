@@ -43,7 +43,6 @@ X_test, y_test = create_sequences(test_data, seq_length)
 
 lstmUnits = 500
 
-# Define input layer
 inputs = Input(shape=(seq_length, 1))
 
 # LSTM layers
